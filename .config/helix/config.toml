@@ -1,0 +1,15 @@
+theme = "nord"
+
+[editor]
+true-color = true
+
+[editor.lsp]
+display-messages = true
+
+[editor.cursor-shape]
+normal = "underline"
+select = "hidden"
+
+[editor.indent-guides]
+render = true
+character = "┆"
