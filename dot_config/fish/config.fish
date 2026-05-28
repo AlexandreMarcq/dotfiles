@@ -150,3 +150,9 @@ end
 if test false = true
     echo ""
 end
+
+set PATH $PATH /home/amarcq/.local/bin /home/amarcq/.terragrunt/bin
+set --global --export EDITOR /usr/bin/hx
+
+# Added by Antigravity CLI installer
+set -gx PATH "/home/amarcq/.local/bin" $PATH
