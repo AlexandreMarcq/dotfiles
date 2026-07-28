@@ -158,3 +158,4 @@ set --global --export EDITOR /usr/bin/hx
 set -gx PATH "/home/amarcq/.local/bin" $PATH
 
 set -gx SSH_ASKPASS /usr/bin/ksshaskpass
+set -gx SSH_ASKPASS_REQUIRE prefer
