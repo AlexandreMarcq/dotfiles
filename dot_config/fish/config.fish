@@ -156,3 +156,5 @@ set --global --export EDITOR /usr/bin/hx
 
 # Added by Antigravity CLI installer
 set -gx PATH "/home/amarcq/.local/bin" $PATH
+
+set -gx SSH_ASKPASS /usr/bin/ksshaskpass
